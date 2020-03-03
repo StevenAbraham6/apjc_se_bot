@@ -9,7 +9,7 @@ var moment = require('moment');
 
 const webex = Webex.init({
   credentials: {
-    access_token: "MmM2MjA2OTQtMTFhNC00ZDlhLWE2YmItOWZlZjc5OTNkMmIwZTJiZmUxMGMtM2U2_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f"
+    access_token: "NDNmZjcwZWYtZDZkMi00OGJjLWIzY2QtYjNiYjc5YjdlMjcxMjE2ZTNlNDEtMDU2_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f"
   }
 });
 
@@ -18,7 +18,7 @@ Airtable.configure({
 })
  
 axios.defaults.baseURL = 'https://api.ciscospark.com/v1';
-axios.defaults.headers.common['Authorization'] = 'Bearer MmM2MjA2OTQtMTFhNC00ZDlhLWE2YmItOWZlZjc5OTNkMmIwZTJiZmUxMGMtM2U2_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f';
+axios.defaults.headers.common['Authorization'] = 'Bearer NDNmZjcwZWYtZDZkMi00OGJjLWIzY2QtYjNiYjc5YjdlMjcxMjE2ZTNlNDEtMDU2_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 const base = Airtable.base("appg6ovHFMJF0lH6O")
