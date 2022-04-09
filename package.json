@@ -13,7 +13,7 @@
     "axios": "^0.19.2",
     "bluebird": "^3.7.2",
     "ciscospark": "^1.59.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.28",
     "webex": "^1.80.109"
   }
